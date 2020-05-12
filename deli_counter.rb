@@ -28,10 +28,9 @@ def now_serving(katz_deli)
     puts "There is nobody waiting to be served!"
   #if people are in line
   else
-    #remove the first person - shift
-
     #puts Currently serving katz_deli[0]
     puts "Currently serving #{katz_deli[0]}."
+    #remove the first person - shift
     katz_deli.shift
   end
 end
