@@ -29,7 +29,7 @@ def now_serving(katz_deli)
   #if people are in line
   else
     #remove the first person - shift
-    
+
     #puts Currently serving katz_deli[0]
     puts "Currently serving #{katz_deli[0]}."
     katz_deli.shift
